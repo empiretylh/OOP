@@ -1,11 +1,3 @@
-# Write a program to generate the following output. Use an appropiate loop. 
-output :
-			    *
-			   **
-			  *****
-			********
-		   **********
-
 #include <iostream>
 using namespace std;
 

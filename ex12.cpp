@@ -1,0 +1,35 @@
+/* Write a program that ask the user to enter 10 integer number from the keyboard and store them in an array.
+Sort the array in the ascending order and display the largest number and smallest number.*/
+
+#include <iostream>
+
+using namespace std;
+
+int main(){
+     int array[10];
+
+     for(int i = 0; i < 10; i++){
+        cout << "Enter Integer to store in array : ";
+        cin >> array[i];
+    }
+
+    for(int i = 0; i < 10 ; i ++){
+            for(int j = i + 1; j < 10; j++){
+                if (array[i] > array[j]){
+                    int temp =  array[i];
+                    array[i] = array[j];
+
+                    array[j] =  temp;
+                }
+            }
+    }
+
+    for (int i = 0; i < 10; i++){
+        cout << array[i] << endl;
+    }
+
+    cout << "Largest Number = " << array[9];
+    cout << "\n Smallest Number = " << array[0];
+
+    return 0;
+}

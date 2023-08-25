@@ -1,5 +1,4 @@
-Write a program that allows the user to enter the `number` and generate the
-multiples of number about `20` times.
+# Write a program that allows the user to enter the `number` and generate the multiples of number about `20` times.
 
 # Solution
 
