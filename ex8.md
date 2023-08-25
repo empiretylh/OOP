@@ -1,26 +1,28 @@
-/*
-    Write a program that accepts a dividend and a divisor, calculates quotient and
-    remainder until the user stops (y/n).
-*/
+# Write a program that accepts a `dividend` and a `divisor`, calculates `quotient` and remainder until the user stops `(y/n)`.
+#
+---
+# Solution
 
-#include <iostream>
+    #include <iostream>
 
-using namespace std;
+    using namespace std;
 
-int main(){
-    long dividend, divisor;
-    char ch;
+    int main(){
+        long dividend, divisor;
+        char ch;
 
-    do{
-    cout << "\nEnter dividend : ";
-    cin >> dividend;
-    cout << "Enter divisor : ";
-    cin >> divisor;
+        do{
+            cout << "\nEnter dividend : ";
+            cin >> dividend;
+            cout << "Enter divisor : ";
+            cin >> divisor;
 
-    cout << "Quotient is " << dividend / divisor;
-    cout << ", remainder is " << dividend % divisor;
-    cout << "\nDo another? (y/n) :";
-    cin >> ch;
-    }while(ch != 'n');
-return 0;
-}
+            cout << "Quotient is " << dividend / divisor;
+            cout << ", remainder is " << dividend % divisor;
+            cout << "\nDo another? (y/n) :";
+            cin >> ch;
+        } while(ch != 'n');
+
+      return 0;
+    }
+

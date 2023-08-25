@@ -1,5 +1,6 @@
 # Write a program that allows the user to enter the `number` and generate the multiples of number about `20` times.
-
+#
+---
 # Solution
 
 	#include <iostream>
@@ -44,7 +45,9 @@
 			}
 
 6. multiple of number ဆိုတဲ့ အတွက်ကြောင့်  `1` to `20` value change နေတဲ့  loop ထဲက `i` variable နဲ့ user ထဲလိုက်တဲ့ `n` variable နဲ့ မြှောက်ပြီး `loop` ထဲမှာ တစ်ခါတည်း output ထုတ်ပြလိုက်ပါတယ်။ `"/t"` ဆိုတာလေးကတော့ ထွက်လာတဲ့ output ကို တစ်ခုနဲ့ တစ်ခု `Tab` ခြားပြီးပြခြင်းဖြစ်ပါသည်။
-
-Example output : if the user enter a number 7,
+#
+---
+#
+**Example output :** if the user enter a number 7
 7 14 21 28 35 42 49 56 63 70
 77 84 91 98 105 112 119 126 133 140
