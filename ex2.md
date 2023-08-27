@@ -8,6 +8,10 @@ output :
 		 *********
 #
 ---
+
+[looping](courseid-5,lessonid-16) , [looping](courseid-5,lessonid-16)
+
+------
 # Solution
 
 	#include <iostream>
