@@ -1,13 +1,8 @@
-# On a certain day, The British `pound` was equivalent to `$1.487US`., the French `franc` was `$0.172`, The Germand `deutschemark` was `$0.584` and the Japanese `yen` was `$0.00955`. Write a program that allow the user to enter an amount in dollars, and then displays this value converted to these four other monetary units.
+# On a certain day, The British pound was equivalent to $1.487US., the French `franc` was $0.172, The German `deutschemark` was $0.584 and the Japanese `yen` was $0.00955. Write a program that allow the user to enter an amount in dollars, and then displays this value converted to these four other monetary units.
 #
----
-Related Topic
-[Operator](courseid-5,lessonid-13)
-
 ---
 # Solution
 
-	
 	#include <iostream>
 
 	using namespace std;
@@ -31,12 +26,11 @@ Related Topic
 	}
 
 #
-----
+---
 # Example Output
-
 Enter amount in dollars: 50
 $ 50 Equivalent to 
-Pound : 33.6247 
-Franc : 290.6987
-Deutschemark : 85.6164
+Pound : 33.6247
+Franc : 290.698
+Deutschemark : 86.6164
 Yen : 5235.6

@@ -4,7 +4,7 @@ using namespace std;
 
 int main(){
     int number =88;
-    int * ipNumber;
+    int * pNumber;
     pNumber = &number;
 
     cout<<pNumber<<endl;

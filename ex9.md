@@ -1,6 +1,11 @@
 # Create a `structure` called Room that use two variable of type Distance to model the area of a room. Initialize a variable of type Room to specific dimensions. To calculate the area, convert each dimension type `float` representing `feet` and `inches` and then multiply the resulting three numbers.
 #
 ---
+Related Topic
+
+[Structure struct](courseid-5,lessonid-19), [out and input](courseid-5,lessonid-9), [if statement](courseid-5,lessonid-15), [Operator](courseid-5,lessonid-13)
+
+---
 # Solution
 
     #include <iostream>

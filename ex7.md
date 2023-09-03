@@ -1,6 +1,11 @@
 # Write a program that prints numbers raised to fourth power.
 #
 ---
+Related Topic
+
+[while loop](courseid-5,lessonid-16), [Data type](courseid-5,lessonid-11), [Operator](courseid-5,lessonid-13)
+
+---
 # Solution
 
     #include <iostream>

@@ -1,6 +1,11 @@
 # Write a program that allows the user to enter the `number` and generate the multiples of number about `20` times.
 #
 ---
+Related Topic 
+[forloop](courseid-5,lessonid-16), [Operator](courseid-5,lessonid-13)
+	
+---
+
 # Solution
 
 	#include <iostream>

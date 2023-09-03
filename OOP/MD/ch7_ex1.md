@@ -15,13 +15,13 @@ Related Topic
     using namespace std;
 
     void reversit(char S[]);
-    
+
     int main(){
          const int max = 80;
 
          char str[max];
          cout << "Enter a string :";
-         cin.get(str,max,'$');
+         cin.get(str,max,'$'); //'$' sign for embedded blank
 
          reversit(str);
 
@@ -39,3 +39,12 @@ Related Topic
 
         }
     }
+
+#
+---
+
+# Example Output:
+Enter a string : abcdefg
+Reversit String : gfedcba
+
+

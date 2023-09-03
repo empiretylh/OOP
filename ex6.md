@@ -1,6 +1,10 @@
 # Write a program that calculate factorial value of a given number.
 #
 ---
+Related Topic
+[forloop](courseid-5,lessonid-16), [Operator](courseid-5,lessonid-13), [Data type](courseid-5,lessonid-11)
+
+---
 # Solution
 
 	#include <iostream>

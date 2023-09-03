@@ -1,6 +1,10 @@
 # Write a program that accepts a `dividend` and a `divisor`, calculates `quotient` and remainder until the user stops `(y/n)`.
 #
 ---
+Related Topic
+[do/while](courseid-5,lessonid-16), [Operator](courseid-5,lessonid-13)
+
+------
 # Solution
 
     #include <iostream>
