@@ -10,13 +10,13 @@ the data for all the employees.
 */
 
 #include <iostream>
-#include <string>
-
+//strlen()
 using namespace std;
 
 class employee{
     private:
         string name;
+
         long number;
 
     public:
@@ -26,6 +26,8 @@ class employee{
 
             cout << "Enter employee number : ";
             cin >> number;
+            cout << "Enter employee age :";
+
         }
 
         void putdata(){
@@ -36,8 +38,11 @@ class employee{
 
 int main(){
     employee emparr[100];
+    //0 1 2 99
+
 
     int n = 0;
+
 
     char ch;
 
@@ -50,10 +55,10 @@ int main(){
 
     }while(ch != 'n');
 
-    for(int j = 0; j < n; j++){
+    for(int j = 0; j < 2; j++){
         cout << "\nEmployee number " << j + 1;
 
-        emparr[j].putdata();
+        emparr[j].putdata(); ///kaung
     }
 
     cout << endl;

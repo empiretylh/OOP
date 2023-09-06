@@ -1,6 +1,8 @@
 # Write a program that count words and letters from ther user input.
+#
 
-
+---
+ 
 # Solution 
 
     #include <iostream>
@@ -10,7 +12,7 @@
 
     int main(){
         int chcount = 0;
-        int wdcount = 0
+        int wdcount = 0;
 
         char ch = 'a';
 
@@ -29,11 +31,18 @@
 
         cout << endl;
 
-        cout << "Words = " << wdcount << endl;
-        cout << "Letters = " << (chcount - 1) << endl;
+        cout << "Words = " << wdcount + 1 << endl;
+        cout << "Letters = " << (chcount) << endl;
 
         return 0;
     }
 
 # 
+---
+
+# Example Output
+Enter a phrase
+one apple
+Words = 2
+Letters = 8
 
